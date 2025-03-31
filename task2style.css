@@ -6,8 +6,9 @@
  .section1 {
      font-size: 15px;
      font-family: 'Times New Roman', Times, serif;
-     /* display: flex;
-     align-items: center; */
+     width: 100%;
+     display: flex;
+     justify-content: center;
  }
 
  .container1 {
@@ -20,15 +21,11 @@
 
  .container2 {
      color: rgb(167, 167, 167);
-     padding-left: 10%;
-     padding-right: 10%;
      margin-top: 20px;
-     /* display: flex;
-     align-items: center; */
  }
 
- .text {
-     flex: 1;
+ .body {
+     width: 80%;
  }
 
  .container3 {
@@ -51,15 +48,24 @@
  }
 
  .image1 {
-     float: right;
-     padding: 10px;
+     padding: 5px;
+     border: 1px solid #e6e3d8;
  }
 
  .image2 {
-     float: left;
-     padding: 10px;
+     padding: 5px;
+     border: 1px solid #e6e3d8;
+ }
+
+ .basic-4 {
+     display: flex;
  }
 
  .last {
      margin-top: 10px;
+     text-align: end;
+ }
+
+ .footer {
+     display: flex;
  }
